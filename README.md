@@ -38,7 +38,7 @@ It is a website where you will be able to estimate your future returns from vari
 <a name="contributors"></a>
 ## CONTRIBUTORS
 
-1. Praveen Kumar Yadav praveenyadav340@gmail.com
+1. Praveen Kumar Yadav praveenkyadav02@gmail.com
 2. Prashant Kumar Bhaiya 20dec002@nith.ac.in
 
 

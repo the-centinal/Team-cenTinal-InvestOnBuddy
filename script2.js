@@ -29,7 +29,6 @@ function clicked() {
                 document.getElementById('npsie').innerHTML = npsie;
                 document.getElementById('npsma').innerHTML = npsma;
                 document.getElementById('npsai').innerHTML = npsai;
-                
         }
 
         function sip(month2, time2) {
@@ -41,7 +40,6 @@ function clicked() {
                 document.getElementById('sipti').innerHTML = sipti;
                 document.getElementById('sipie').innerHTML = sipie;
                 document.getElementById('siptv').innerHTML = sipta;
-                return sipta;
         }
 
         function ppf(month3, time3) {
@@ -53,7 +51,6 @@ function clicked() {
                 document.getElementById('ppfti').innerHTML = ppfti;
                 document.getElementById('ppfie').innerHTML = ppfie;
                 document.getElementById('ppftv').innerHTML = ppftv;
-                return ppftv;
         }
 
 
@@ -66,7 +63,6 @@ function clicked() {
                 document.getElementById('scti').innerHTML = scti;
                 document.getElementById('scie').innerHTML = scie;
                 document.getElementById('sctv').innerHTML = sctv;
-                return sctv;
         }
 
 
@@ -83,26 +79,7 @@ function clicked() {
         } else if (investment_option == 4) {
                 month = 0.4 * monthly;
                 sip(month, time);
-
-        } 
-         else if (investment_option == 5)
-         {      
-                monthsc = 8 * monthly / 50;
-                monthsip = 6 * (monthly) / 50;
-                monthppf = 3 * (monthly) / 50;
-                 
-                 let amountwanted=getElementById("amountwanted").value;
-                 for(let t=0; ;t++)
-                 {
-                        if(amountwanted<=(saving(monthsc,t)+ppf(monthppf,t)+sip(monthsip,t)))
-                        {
-                        document.getElementById('t').innerHTML = t;     
-
-                        }
-                 }
-         }
-        
-        else {
+        } else {
                 monthnps = 3 * (monthly) / 50;
                 monthsc = 8 * monthly / 50;
                 monthsip = 6 * (monthly) / 50;
@@ -113,5 +90,4 @@ function clicked() {
                 sip(monthsip, time);
 
         }
-
 }
